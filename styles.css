@@ -10,6 +10,7 @@ html, body {
     font-family: "PP Neue Montreal";
     background: #000;
     cursor: none;
+    overflow: hidden;
 }
 
 img {
@@ -44,7 +45,7 @@ p, a {
 .cursor {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     width: 100px;
     height: 100px;
     display: flex;
